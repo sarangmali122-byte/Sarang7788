@@ -159,6 +159,12 @@ transition:0.3s;
 transform:scale(1.05);
 }
 
+.mitlogo{
+width:40px;
+margin-left:15px;
+
+}
+
 .light-mode{
 background:white;
 color:black;
