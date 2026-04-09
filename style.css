@@ -116,12 +116,14 @@ gap:20px;
 }
 
 .card{
-background:#1e293b;
+background:rgba(255,255,255,0.05);
 padding:20px;
-border-radius:12px;
+border-radius:15px;
 transition:0.4s;
 text-align:center;
-box-shadow:0 8px 20px rgba(0,0,0,0.3);
+box-shadow:0 8px 30px rgba(0,0,0,0.4);
+backdrop-filter:blur(10px);
+border:1px solid rgba(255,255,255,0.1);
 }
 
 .card img{
@@ -130,9 +132,8 @@ border-radius:10px;
 }
 
 .card:hover{
-transform:translateY(-10px);
-background:#22c55e;
-color:black;
+transform:translateY(-10px) scale(1.03);
+box-shadow:0 10px 40px rgba(0,0,0,0.6);
 }
 
 .project-container{
