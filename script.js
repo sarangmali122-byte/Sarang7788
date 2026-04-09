@@ -71,3 +71,16 @@ ScrollReveal().reveal('#projects',{origin:'right'});
 ScrollReveal().reveal('#gallery',{origin:'bottom'});
 
 ScrollReveal().reveal('#contact',{origin:'top'});
+
+/* TYPING ANIMATION */
+
+var typed = new Typed("#typing", {
+strings: [
+"Sarang Sunil Mali",
+"B.Tech CSE Student",
+"Future Software Engineer"
+],
+typeSpeed: 60,
+backSpeed: 40,
+loop: true
+});
