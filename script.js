@@ -78,7 +78,7 @@ var typed = new Typed("#typing", {
 strings: [
 "Sarang Sunil Mali",
 "B.Tech CSE Student",
-"Future Software Engineer"
+"C.S Engineer"
 ],
 typeSpeed: 60,
 backSpeed: 40,
