@@ -215,16 +215,3 @@ margin-left:15px;
 background:white;
 color:black;
 }
-
-/* SCROLL FADE ANIMATION */
-
-section{
-opacity:1;
-transform:translateY(0);
-transition:1s;
-}
-
-section.show{
-opacity:1;
-transform:translateY(0);
-}
