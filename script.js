@@ -48,3 +48,26 @@ sec.classList.add("show");
 });
 
 });
+
+/* SCROLL REVEAL ANIMATION */
+
+ScrollReveal({
+
+distance: '60px',
+duration: 1200,
+delay: 200,
+reset: false
+
+});
+
+ScrollReveal().reveal('.home',{origin:'top'});
+
+ScrollReveal().reveal('#about',{origin:'left'});
+
+ScrollReveal().reveal('#certificates',{origin:'bottom'});
+
+ScrollReveal().reveal('#projects',{origin:'right'});
+
+ScrollReveal().reveal('#gallery',{origin:'bottom'});
+
+ScrollReveal().reveal('#contact',{origin:'top'});
